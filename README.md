@@ -1,7 +1,7 @@
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
 [![Test Coverage][travis-image]][travis-url]
-[![Coverage][coverage-image]][coverage-url]
+[![Coverage][coverage-image]][coverage-url]f
 
 [npm-image]: https://img.shields.io/npm/v/unzipper.svg
 [npm-url]: https://npmjs.org/package/unzipper
@@ -122,7 +122,7 @@ fs.createReadStream('path/to/archive.zip')
 
 ### Parse a single file and pipe contents
 
-`unzipper.parseOne([regex])` is a convenience method that unzips only one file from the archive and pipes the contents down (not the entry itself).  If no serch criteria is specified, the first file in the archive will be unzipped.  Otherwise, each filename will be compared to the criteria and the first one to match will be unzipped and piped down.  If no file matches then the the stream will end without any content.
+`unzipper.parseOne([regex])` is a convenience method that unzips only one file from the archive and pipes the contents down (not the entry itself).  If no search criteria is specified, the first file in the archive will be unzipped.  Otherwise, each filename will be compared to the criteria and the first one to match will be unzipped and piped down.  If no file matches then the the stream will end without any content.
 
 Example:
 
